@@ -9,5 +9,5 @@ app.get('/',function(req,res){
 });
 
 var server = http.createServer(app).listen(port, function() {
-consolelog("Listening on " + port);
+console.log("Listening on " + port);
 });
